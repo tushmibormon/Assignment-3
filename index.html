@@ -23,16 +23,17 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                'btn-home': '#ABEF5F',
                 
               }
             }
           }
         }
       </script>
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body class="font-family">
-   <nav>
+   <nav class="pl-32 pr-32 sm: ">
     <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -71,8 +72,11 @@
             <li><a>Contact Us</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <a class="btn">Book Consult</a>
+        <div class="navbar-end gap-6">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a class="btn bg-lime-500 text-black font-extrabold rounded-3xl ">Book Consult <button class="bg-black w-8 rounded-3xl border-c"><i class="fa-solid fa-arrow-right"></i></button></a>
         </div>
       </div>
    </nav>
