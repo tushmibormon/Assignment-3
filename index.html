@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,69 +33,84 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body class="font-family">
-   <nav class="pl-32 pr-32 sm: ">
-    <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a>Home</a></li>
-                <li><a>Services</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blogs</a></li>
-                <li><a>Contact Us</a></li>
-            </ul>
-          </div>
-          <a class="btn btn-ghost text-xl">Rinterio</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a>Services</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end gap-6">
+  <header>
+    <!-- bannar section  -->
 
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-            <a class="btn bg-lime-500 text-black font-extrabold rounded-3xl ">Book Consult <button class="bg-black w-8 rounded-3xl border-c"><i class="fa-solid fa-arrow-right"></i></button></a>
-        </div>
-      </div>
-   </nav>
-
-   <!-- bannar section  -->
-
-   <section class="w-[1170px] mx-auto mt-8">
-    <div class="pb-6 w-[571.17px] mx-auto">
-        <img src="assets/banner.png" alt="">
+   <section class="max-w-screen-xl mx-auto mt-8 px-5">
+    <div class="pb-6">
+        <img class="mx-auto" src="assets/banner.png" alt="">
     </div>
     <div class="text-center">
-      <h1 class="text-5xl font-bold pb-6">A barn house of this design has a <br> striking appearance</h1>
+      <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold pb-6">A barn house of this design has a <br> striking appearance</h1>
       <p class="text-base mb-7	">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br>accents, and large windows that flood the space with natural light.</p>
     </div>
     <div class="text-center">
-      <button class="btn btn-secondary bg-lime-300 py-3 px-8 rounded-3xl">View Details</button>
+      <button class="btn btn-secondary bg-lime-300 py-3 px-8 rounded-3xl w-full md:w-52">View Details</button>
     </div>
 
    </section>
+  </header>
+
+  <main>
+    <!-- web design section start -->
+
+    <section class="w-full flex  justify-center bg-slate-100 gap-9 mt-24	">
+     <div>
+      <div>
+        <div>
+          <img class="mt-6" src="assets/Vector.png" alt="">
+        </div>
+        <div>
+          <button class="btn bg-white	px-4 mb-5	">About us</button>
+        </div>
+        <div>
+          <h2 class="lg:text-4xl w-72	font-bold mb-5">We design thoughtful,<br>liveable spaces</h2>
+          <p class="mb-5">The barn house captivates with its blend of rustic charm and <br>
+            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+       </div>
+       <div class="flex gap-3 p-6 rounded-2xl bg-white mb-5">
+          <div>
+            <img src="assets/commercial.png" alt="">
+          </div>
+          <div>
+            <h4 class="text-base font-bold">Commercial</h4>
+            <p class="text-sm	">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+          </div>
+       </div>
+       <div class="flex gap-3 p-4 rounded-2xl bg-white">
+        <div>
+          <img src="assets/residential.png" alt="">
+        </div>
+        <div>
+          <h4 class="text-base font-bold">Residential</h4>
+          <p class="text-sm	">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+        </div>
+     </div>
+     </div>
+   <div>
+    <img class="w-[440px] h-[420px] mt-24	" src="assets/Rectangle.png" alt="">
+   </div>
+    </section>
+
+    <!-- card section start  -->
+
+    <section>
+      <div>
+        <button class="btn btn-primary bg-white px-5 rounded-lg">How we works</button>
+      </div>
+      <div>
+        <h4 class="lg:text-4xl font-bold">Our Works Process</h4>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+      </div>
+    </section>
+
+
+
+  </main>
+
+
+   
 
 </body>
 </html>
